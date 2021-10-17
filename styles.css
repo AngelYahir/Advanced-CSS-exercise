@@ -1,0 +1,64 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+div
+{
+    background-color: #fff;
+    width: 500px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 70px;
+    border: 0px solid;
+    margin: 20px 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+p
+{
+    text-align: center;
+}
+
+.redBox
+{
+    border-left: 3px solid red;
+}
+
+.redBox:hover
+{
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+}
+
+.greenBox
+{
+    border-left: 3px solid green;
+}
+
+.greenBox:hover
+{
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blueBox
+{
+    border-left: 3px solid blue;
+}
+
+.blueBox:hover
+{
+    background-color: rgba(183, 0, 255, 0.1);
+}
